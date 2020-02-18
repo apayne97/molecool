@@ -5,6 +5,9 @@ A Python package for analyzing and visualizing xyz files. For MolSSI Workshop Py
 
 # Add imports here
 from .molecule import *
+from .measure import *
+from .atom_data import *
+from .visualize import *
 
 # Handle versioneer
 from ._version import get_versions

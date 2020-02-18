@@ -25,6 +25,9 @@ def calculate_distance(rA, rB):
     0.1
     """
 
+    # if not isinstance(rA, np.ndarray) or not isinstance(rB, np.ndarray):
+    #     raise TypeError("Input must be type np.ndarray!")
+
     dist_vec = (rA - rB)
     distance = np.linalg.norm(dist_vec)
 
