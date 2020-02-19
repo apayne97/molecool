@@ -22,6 +22,7 @@ def test_calculate_distance():
 
     assert expected_distance == calculated_distance
 
+def test_calculate_distance2():
     ## Now check for correct error raising.
     r1 = [0, 0, 0]
     r2 = [0, 1, 0]
